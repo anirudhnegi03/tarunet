@@ -21,17 +21,6 @@ const Navbar = () => {
         {/* Right Side Controls */}
         <div className="flex items-center gap-4">
           {/* Notifications */}
-          <Link
-            to="/notifications"
-            className="hover:bg-neutral-800 rounded-full p-2 transition"
-            title="Notifications"
-          >
-            <Bell
-              size={22}
-              weight="bold"
-              className="text-gray-400 hover:text-white"
-            />
-          </Link>
 
           {/* Friends */}
           <Link
